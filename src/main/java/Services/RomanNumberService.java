@@ -6,8 +6,6 @@ import lombok.Data;
 @Data
 @AllArgsConstructor
 public class RomanNumberService {
-    private String number;
-
     static int sub_digit(char num1, char num2, int i, char[] c) {
         c[i++] = num1;
         c[i++] = num2;
